@@ -1,4 +1,4 @@
-xUSE albums_db;
+USE albums_db;
 
 #Looking at data in albums database
 select *
