@@ -57,3 +57,16 @@ join dept_manager on departments.dept_no = dept_manager.dept_no
 join employees on employees.emp_no= dept_manager.emp_no
 WHERE dept_manager.to_date > curdate()
 ORDER BY dept_name ASC;
+
+# Access employees database
+USE employees;
+
+# Join employees and salaries tables
+SELECT * 
+FROM employees
+JOIN salaries ON employees.emp_no = salaries.emp_no;
+
+# another way to join tables
+SELECT *
+FROM employees
+JOIN salaries using(emp_no);
