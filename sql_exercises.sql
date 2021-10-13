@@ -58,15 +58,42 @@ join employees on employees.emp_no= dept_manager.emp_no
 WHERE dept_manager.to_date > curdate()
 ORDER BY dept_name ASC;
 
-# Access employees database
+-- Access employees database
 USE employees;
 
-# Join employees and salaries tables
+-- Join employees and salaries tables
 SELECT * 
 FROM employees
 JOIN salaries ON employees.emp_no = salaries.emp_no;
 
-# another way to join tables
+-- another way to join tables
 SELECT *
 FROM employees
 JOIN salaries using(emp_no);
+
+/* 
+■ Write a query to find the names of all customer id from the customers table where the
+customers.age is 21. */
+USE mall_customers;
+
+SELECT customer_id, age
+FROM customers
+WHERE age = 21;
+
+/* ■ Write a query to calculate the average population per continent with 2 or more
+regions in the table. */
+USE world;
+
+SELECT AVG(population) AS AveragePopulation, region, Continent
+FROM country
+GROUP BY region, Continent
+HAVING COUNT(region) >= 2
+ORDER BY COUNT(region) DESC;
+
+
+/* ■ Write a query to calculate the average population per region, order by ascending.   */
+SELECT AVG(population), region
+FROM country
+GROUP BY region
+ORDER BY region ASC;
+
