@@ -97,3 +97,17 @@ FROM country
 GROUP BY region
 ORDER BY region ASC;
 
+
+-- Window functions
+-- use albums database
+USE albums_db;
+
+SELECT sales, name,
+SUM(sales) OVER (ORDER BY name) AS running_total
+FROM albums;
+
+
+-- will work in a different order
+SELECT name, artist,
+SUM(sales) OVER (ORDER BY name) AS running_total
+FROM albums;
