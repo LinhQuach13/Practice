@@ -111,3 +111,17 @@ FROM albums;
 SELECT name, artist,
 SUM(sales) OVER (ORDER BY name) AS running_total
 FROM albums;
+
+/* Basic windowing syntax
+The first part of the above aggregation, SUM(sales), looks a lot like any other aggregation. Adding OVER designates it as a window function. You could read the above aggregation as "take the sum of sales over the entire result set, in order by name."
+
+If you'd like to narrow the window from the entire dataset to individual groups within the dataset, you can use PARTITION BY to do so: */
+
+SELECT sales,
+	   artist,
+       name,
+       SUM(sales) OVER
+         (PARTITION BY artist ORDER BY name)
+         AS running_total
+  FROM albums
+ WHERE name = 'Thriller';
