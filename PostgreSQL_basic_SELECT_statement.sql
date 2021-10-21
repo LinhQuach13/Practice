@@ -5,3 +5,8 @@ FROM employees;
 --  Write a query to get a unique department ID from employee table.
 SELECT DISTINCT department_id
 FROM employees;
+
+-- Write a query to get the details of all employees from the employee table in descending order by their first name.
+SELECT *
+FROM employees
+ORDER BY first_name DESC;
