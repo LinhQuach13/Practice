@@ -28,3 +28,8 @@ ORDER BY salary ASC;
 -- calculate total salaries payable
 SELECT SUM(salary)
 FROM employees;
+
+-- 7. Write a query to get the maximum and minimum salary paid to the employees.
+    --- In select statement use min and max aggregation of salary column
+SELECT MAX(salary), MIN(salary)
+FROM employees;
