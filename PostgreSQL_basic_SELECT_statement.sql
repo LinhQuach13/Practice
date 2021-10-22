@@ -33,3 +33,15 @@ FROM employees;
     --- In select statement use min and max aggregation of salary column
 SELECT MAX(salary), MIN(salary)
 FROM employees;
+
+-- 8. Write a query to get the average salary and number of employees are working.
+   -- aggregate for average salary and for number of employees in SELECT clause
+SELECT AVG(salary), COUNT(*)
+FROM employees;
+
+-- 9. Write a query to get the number of employees working with the company.
+SELECT COUNT(*)
+FROM employees;
+
+
+
