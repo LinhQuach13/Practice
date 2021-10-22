@@ -41,7 +41,10 @@ FROM employees;
 
 -- 9. Write a query to get the number of employees working with the company.
 SELECT COUNT(*)
-FROM employees;
+FROM employees; 
 
+-- 10. Write a query to get the unique number of designations available in the employees table.
+SELECT COUNT(DISTINCT job_id)
+FROM employees;
 
 
