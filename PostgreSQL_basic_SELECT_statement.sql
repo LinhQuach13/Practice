@@ -47,4 +47,7 @@ FROM employees;
 SELECT COUNT(DISTINCT job_id)
 FROM employees;
 
-
+-- 11. Write a query to get all the first name from the employees table in upper case.  
+        --- select only first name columns and use upper function
+SELECT UPPER(first_name)
+FROM employees;
