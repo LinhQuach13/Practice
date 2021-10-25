@@ -51,3 +51,10 @@ FROM employees;
         --- select only first name columns and use upper function
 SELECT UPPER(first_name)
 FROM employees;
+
+
+-- 12. Write a query to get the first three characters of the first name for all the employees in the employees table.
+    -- filter for only first name
+    -- use substring to query first 3 characters
+SELECT SUBSTRING(first_name, 1, 3)
+FROM employees;
