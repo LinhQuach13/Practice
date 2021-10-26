@@ -58,3 +58,6 @@ FROM employees;
     -- use substring to query first 3 characters
 SELECT SUBSTRING(first_name, 1, 3)
 FROM employees;
+
+-- 13. Write a query to calculate the expression 171*214+625.
+SELECT (171*214+625) AS expression_result;
