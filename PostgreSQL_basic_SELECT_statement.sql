@@ -61,3 +61,8 @@ FROM employees;
 
 -- 13. Write a query to calculate the expression 171*214+625.
 SELECT (171*214+625) AS expression_result;
+
+-- 14. Write a query to get the name, including first name and last name of all the employees from employees table.
+    ---- select first name and last name columns
+SELECT CONCAT(first_name, ' ', last_name) AS "employee name"
+FROM employees;
