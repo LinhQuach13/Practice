@@ -66,3 +66,7 @@ SELECT (171*214+625) AS expression_result;
     ---- select first name and last name columns
 SELECT CONCAT(first_name, ' ', last_name) AS "employee name"
 FROM employees;
+
+-- 15. Write a query to get the first names after removing all the leading and trailing blanks of all the employees from employees table.
+SELECT TRIM(first_name)
+FROM employees;
