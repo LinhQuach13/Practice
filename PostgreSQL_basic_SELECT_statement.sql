@@ -70,3 +70,9 @@ FROM employees;
 -- 15. Write a query to get the first names after removing all the leading and trailing blanks of all the employees from employees table.
 SELECT TRIM(first_name)
 FROM employees;
+
+-- 16. Write a query to get the first name, last name and the length of the name, including first_name and last_name of all the employees from employees table.
+    -- create first_name and last_name alias as "employee name"
+SELECT first_name, last_name,
+LENGTH(first_name)+LENGTH(last_name) AS "Length of Names"
+FROM employees;
