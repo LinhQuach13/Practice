@@ -76,3 +76,9 @@ FROM employees;
 SELECT first_name, last_name,
 LENGTH(first_name)+LENGTH(last_name) AS "Length of Names"
 FROM employees;
+
+-- 17. Write a query to check whether the first_name column of the employees table containing any number.
+SELECT * 
+FROM employees 
+WHERE  first_name 
+SIMILAR TO '%0|1|2|3|4|5|6|7|8|9%';
