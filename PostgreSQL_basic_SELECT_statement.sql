@@ -82,3 +82,9 @@ SELECT *
 FROM employees 
 WHERE  first_name 
 SIMILAR TO '%0|1|2|3|4|5|6|7|8|9%';
+
+
+-- 18. Write a query to select first ten records from a table.
+SELECT * 
+FROM employees
+LIMIT 10;
