@@ -88,3 +88,10 @@ SIMILAR TO '%0|1|2|3|4|5|6|7|8|9%';
 SELECT * 
 FROM employees
 LIMIT 10;
+
+-- 19. Write a query to get a monthly salary (rounded up to 2 decimal places) of each employee.
+-- Note : Assume the salary field provides the 'annual salary' information.
+  --columns: salary, aggregate to get monthly salary (salary/12)
+  SELECT first_name, last_name, ROUND(salary/12, 2) AS "Monthly Salary"
+  FROM employees;
+
