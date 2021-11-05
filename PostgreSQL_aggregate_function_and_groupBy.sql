@@ -10,3 +10,11 @@ FROM employees;
    --- aggregate on select statement
 SELECT SUM(salary) 
 FROM employees;
+
+
+-- 3. Write a query to get the minimum salary from employees table.
+    ---use MIN function
+    --- aggregate on select statement
+    --- use salary column
+SELECT MIN(salary)
+FROM employees;
