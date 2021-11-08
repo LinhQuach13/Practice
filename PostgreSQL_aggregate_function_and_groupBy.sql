@@ -18,3 +18,10 @@ FROM employees;
     --- use salary column
 SELECT MIN(salary)
 FROM employees;
+
+-- 4. Write a query to get the maximum salary of an employee working as a Programmer.
+    ---aggregate to obtain max salary using salary column
+    ----use job_id column to filter for programmer (IT_PROG)
+SELECT MAX(salary)
+FROM employees
+WHERE job_id = 'IT_PROG';
