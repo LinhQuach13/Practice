@@ -25,3 +25,11 @@ FROM employees;
 SELECT MAX(salary)
 FROM employees
 WHERE job_id = 'IT_PROG';
+
+-- 5. Write a query to get the average salary and number of employees working in the department which ID is 90.
+    -- use average function on salary and count employees
+    --- filter by dept ID 90
+SELECT AVG(salary), COUNT(*)
+FROM employees
+WHERE dept_id = 90;
+
