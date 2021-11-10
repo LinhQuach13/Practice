@@ -33,3 +33,7 @@ SELECT AVG(salary), COUNT(*)
 FROM employees
 WHERE dept_id = 90;
 
+-- 6. Write a query to get the highest, lowest, total, and average salary of all employees.
+    --- aggregate for max(), min(), sum(), avg() on salary column
+SELECT MAX(salary) "Maximum", MIN(salary) "Minimum", SUM(salary) "Total", AVG(salary) "Average"
+FROM employees;
