@@ -37,3 +37,12 @@ WHERE dept_id = 90;
     --- aggregate for max(), min(), sum(), avg() on salary column
 SELECT MAX(salary) "Maximum", MIN(salary) "Minimum", SUM(salary) "Total", AVG(salary) "Average"
 FROM employees;
+
+-- 7. Write a query to get the number of employees working in each post.
+    -- use job_id column
+    --- use COUNT()
+    --- use group by
+SELECT job_id, COUNT(*)
+FROM employees
+GROUP BY job_id;
+
