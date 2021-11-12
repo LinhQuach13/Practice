@@ -46,3 +46,9 @@ SELECT job_id, COUNT(*)
 FROM employees
 GROUP BY job_id;
 
+-- 8. Write a query to get the difference between the highest and lowest salaries.
+    --- use min() and max()
+    ---- use salary column
+SELECT MAX(salary) - MIN(salary) AS "Salary Difference"
+FROM employees;
+
