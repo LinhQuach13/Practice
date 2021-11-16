@@ -52,6 +52,17 @@ GROUP BY job_id;
 SELECT MAX(salary) - MIN(salary) AS "Salary Difference"
 FROM employees;
 
+-- 9. Write a query to find the manager ID and the salary of the lowest-paid employee under that manager.
+    --- select manager_id, salary column
+    --- aggregate on salary column(min())
+    --- filter to where manager_id IS NOT NULL
+    --- groupby manager_id
+SELECT manager_id, MIN(salary)
+FROM employees
+WHERE manager_id IS NOT NULL
+GROUP BY manager_id
+ORDER BY MIN(salary) DESC;
+
 
 -- 10. Write a query to get the department ID and the total salary payable in each department.
     --- select department_id, salary column
@@ -60,4 +71,4 @@ FROM employees;
     ---filter where department_id IS NOT NULL
 SELECT department_id, SUM(salary)
 FROM employees
-GROUPBY department_id;
+GROUP BY department_id;
