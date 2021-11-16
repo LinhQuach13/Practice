@@ -52,3 +52,12 @@ GROUP BY job_id;
 SELECT MAX(salary) - MIN(salary) AS "Salary Difference"
 FROM employees;
 
+
+-- 10. Write a query to get the department ID and the total salary payable in each department.
+    --- select department_id, salary column
+    ---aggregate on salary column (sum())
+    --- groupby sum(salary) DESC
+    ---filter where department_id IS NOT NULL
+SELECT department_id, SUM(salary)
+FROM employees
+GROUPBY department_id;
