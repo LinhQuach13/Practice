@@ -83,3 +83,12 @@ SELECT job_id, AVG(salary)
 FROM employees
 WHERE job_id <> 'IT_PROG'
 GROUP BY job_id;
+
+-- 12. Write a query to get the total salary, maximum, minimum and average salary of all posts for those departments which ID 90.
+    ---aggregate on salary column (sum(), min(), max(), avg())
+    ---- show by job_id column
+    ---- filter by department where ID is 90
+SELECT job_id, SUM(salary), MAX(salary), MIN(salary), AVG(salary)
+FROM employees
+WHERE department_id = '90'
+GROUP BY job_id;
