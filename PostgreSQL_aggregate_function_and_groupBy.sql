@@ -72,3 +72,14 @@ ORDER BY MIN(salary) DESC;
 SELECT department_id, SUM(salary)
 FROM employees
 GROUP BY department_id;
+
+
+-- 11. Write a query to get the average salary for each post excluding programmer.
+    --- aggregate on salary column (AVG())
+    -- filter for all Job_id and exclude IT_PROG
+    -- include groupby to see by each post
+
+SELECT job_id, AVG(salary)
+FROM employees
+WHERE job_id <> 'IT_PROG'
+GROUP BY job_id;
