@@ -92,3 +92,12 @@ SELECT job_id, SUM(salary), MAX(salary), MIN(salary), AVG(salary)
 FROM employees
 WHERE department_id = '90'
 GROUP BY job_id;
+
+-- 13. Write a query to get the job ID and maximum salary of each post for maximum salary is at or above $4000.
+    ---select job_id column
+    --- aggregate salary column (max())
+    ---- filter by max salary of >= 4000
+SELECT job_id, MAX(salary)
+FROM employees
+GROUP BY job_id
+HAVING MAX(salary) >=4000;
