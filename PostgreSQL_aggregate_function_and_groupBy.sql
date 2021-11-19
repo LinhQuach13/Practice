@@ -101,3 +101,12 @@ SELECT job_id, MAX(salary)
 FROM employees
 GROUP BY job_id
 HAVING MAX(salary) >=4000;
+
+-- 14. Write a query to get the average salary for all departments working more than 10 employees.
+    --- aggregate on salary column
+    ---group by department_id
+    ---filter by dept having more than 10 employees (count())- In having statement
+SELECT department_id, AVG(salary), COUNT(*)
+FROM employees
+GROUP BY department_id
+HAVING COUNT(*) > 10;
