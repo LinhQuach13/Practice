@@ -46,8 +46,8 @@ We will be using a classification model to predict cases of work interference du
 <details>
 <summary>View More</summary>
 <br>
-> - [General Python Practice Problems](https://github.com/LinhQuach13/Practice/blob/master/python_practice.ipynb)
-> - [Pandas Library Practice Problems](https://github.com/LinhQuach13/Practice/blob/master/pandas_series_practice.ipynb)
+>- [General Python Practice Problems](https://github.com/LinhQuach13/Practice/blob/master/python_practice.ipynb)
+>- [Pandas Library Practice Problems](https://github.com/LinhQuach13/Practice/blob/master/pandas_series_practice.ipynb)
 
 
 </details>
