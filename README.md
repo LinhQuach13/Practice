@@ -9,17 +9,6 @@ A. [Overview](#overview)
 B. [Challenges](#chall)
    1. [Python Challenges](#py)
    1. [SQL Challenges](#sql)
-   1. [Findings & Next Steps](#fns)
-   
-C. [Data Context](#dc)
-   1. [Data Overview](#do)
-   1. [Data Dictionary](#dd)
-   
-D. [Pipeline](#pipe)
-
-E. [Modules](#mod)
-
-F. [Project Reproduction](#pr)
 
 ## <a name="overview"></a>A. Overview
 ---
