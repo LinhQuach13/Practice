@@ -34,7 +34,7 @@ The challenges below are in the Language Python.
 </details>
 
 ### <a name="sql"></a> 2. SQL Challenges 
-The challenges below are in the SQL challenges.
+The challenges below are in the SQL.
 <br>
 <br>
 
