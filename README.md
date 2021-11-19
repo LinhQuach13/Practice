@@ -8,7 +8,7 @@ A. [Overview](#overview)
 
 B. [Challenges](#chall)
    1. [Python Challenges](#py)
-   1. [SQL](#pypr)
+   1. [SQL Challenges](#sql)
    1. [Findings & Next Steps](#fns)
    
 C. [Data Context](#dc)
@@ -25,21 +25,12 @@ F. [Project Reproduction](#pr)
 ---
 The languages included in this repository are Python and SQL.
 
-### <a name="pdesc"></a> 1. Python Challenges 
-We will be using a classification model to predict cases of work interference due to mental health. A feature importance analysis will then be run on the model to determine what causes work interference.  
-<br>
-<br>
-
-
-### <a name="pdeliv"></a>2. Challenges
-<br>
-<br>
-
 
 ## <a name="chall"></a>B. Challenges
 ---
 
-### <a name="py"></a>1. Python  
+### <a name="py"></a> 1. Python Challenges 
+The challenges below are in the Language Python.
 <br>
 <br>
 
@@ -49,6 +40,22 @@ We will be using a classification model to predict cases of work interference du
    
 - [General Python Practice Problems](https://github.com/LinhQuach13/Practice/blob/master/python_practice.ipynb)
 - [Pandas Library Practice Problems](https://github.com/LinhQuach13/Practice/blob/master/pandas_series_practice.ipynb)
+
+
+</details>
+
+### <a name="sql"></a> 2. SQL Challenges 
+The challenges below are in the SQL challenges.
+<br>
+<br>
+
+<details>
+<summary>View More</summary>
+<br>
+   
+- [MySQL Practice Problems](https://github.com/LinhQuach13/Practice/blob/master/sql_exercises.sql)
+- [PostgreSQL Basic SELECT Statements](https://github.com/LinhQuach13/Practice/blob/master/PostgreSQL_basic_SELECT_statement.sql)
+- [PostgreSQL Aggregations Functions and Group By](https://github.com/LinhQuach13/Practice/blob/master/PostgreSQL_basic_SELECT_statement.sql)
 
 
 </details>
