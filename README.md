@@ -19,7 +19,7 @@ The languages included in this repository are Python and SQL.
 ---
 
 ### <a name="py"></a> 1. Python Challenges 
-The challenges below are in the Language Python.
+The challenges below are in the Programming Language Python.
 <br>
 <br>
 
