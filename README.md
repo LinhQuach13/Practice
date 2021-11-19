@@ -55,7 +55,7 @@ The challenges below are in the SQL challenges.
    
 - [MySQL Practice Problems](https://github.com/LinhQuach13/Practice/blob/master/sql_exercises.sql)
 - [PostgreSQL Basic SELECT Statements](https://github.com/LinhQuach13/Practice/blob/master/PostgreSQL_basic_SELECT_statement.sql)
-- [PostgreSQL Aggregations Functions and Group By](https://github.com/LinhQuach13/Practice/blob/master/PostgreSQL_basic_SELECT_statement.sql)
+- [PostgreSQL Aggregations Functions and Group By](https://github.com/LinhQuach13/Practice/blob/master/PostgreSQL_aggregate_function_and_groupBy.sql)
 
 
 </details>
