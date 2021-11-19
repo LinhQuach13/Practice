@@ -1,6 +1,6 @@
 Hello,
 
-Welcome to the README file for a repository containing different sets of practice problems.
+Welcome to the README file for this repository which contains different sets of practice problems.
 
 
 ## Table of Contents
