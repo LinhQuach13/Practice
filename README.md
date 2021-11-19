@@ -7,8 +7,8 @@ Welcome to the README file for a repository containing different sets of practic
 A. [Overview](#overview)
 
 B. [Challenges](#chall)
-   1. [Python Challenges](#pdesc)
-   1. [Hypotheses](#hypo)
+   1. [Python Challenges](#py)
+   1. [SQL](#pypr)
    1. [Findings & Next Steps](#fns)
    
 C. [Data Context](#dc)
@@ -32,10 +32,6 @@ We will be using a classification model to predict cases of work interference du
 
 
 ### <a name="pdeliv"></a>2. Challenges
- - Acquire, Prepare, and Explore Modules
- - [Final Notebook](https://github.com/Mental-Health-In-Tech/tech-blues-capstone/blob/main/final_notebook.ipynb)
- - [Presentation Slides](https://www.canva.com/design/DAEnBBOlwJI/o_dI1d09qoCiu6lU5P0EUQ/view?utm_content=DAEnBBOlwJI&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
- - This README 
 <br>
 <br>
 
@@ -43,16 +39,15 @@ We will be using a classification model to predict cases of work interference du
 ## <a name="chall"></a>B. Challenges
 ---
 
-### <a name="goals"></a>1. Python  
+### <a name="py"></a>1. Python  
 <br>
 <br>
-
-### <a name="pypr"></a>2. General practice challenges
 
 <details>
 <summary>View More</summary>
 <br>
 > [General Python Practice Problems](https://github.com/LinhQuach13/Practice/blob/master/python_practice.ipynb)
+> [Pandas Library Practice Problems](https://github.com/LinhQuach13/Practice/blob/master/pandas_series_practice.ipynb)
 
 
 </details>
